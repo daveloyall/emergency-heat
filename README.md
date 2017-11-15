@@ -1,2 +1,75 @@
 # emergency-heat
 Is your building's heat out? Deploy this to all your workstations! Turn those CPUs into spaceheaters.
+
+# TODO
+
+- [ ] platform support
+    - [ ] top priority
+        - [ ] work on 64bit
+        - [ ] work on 32bit
+        - [ ] work on Windows XP
+        - [ ] work on Windows 2k3
+        - [ ] work on Windows Vista
+        - [ ] work on Windows 2k8
+        - [ ] work on Windows 7
+        - [ ] work on Windows 8
+        - [ ] work on Windows 2k12
+        - [ ] work on Windows 10
+        - [ ] work on Windows 2k16
+    - [ ] low priority
+        - [ ] work on Mac OS
+        - [ ] TODO put specific Mac OS versions here
+        - [ ] work on linux/unix
+- [ ] packaging
+    - [ ] package as MSI
+    - [ ] package as ??? (Mac OS)
+    - [ ] package as deb (low priority, heating the server room doesn't help)
+    - [ ] package as RPM (low priority, heating the server room doesn't help)
+- [ ] digitally signing
+    - [ ] TODO wut?
+        - This is needed to make immediate deployment possible right?
+- [ ] app
+    - [ ] tray icon
+        - [ ] Allow user to turn it down
+        - [ ] Allow user to turn it up
+        - [ ] Allow user to turn it off
+    - [ ] remote control
+        - [ ] Allow admin to turn it up
+        - [ ] Allow admin to turn it down
+        - [ ] Allow admin to turn it off
+        - [ ] Allow admin to uninstall it
+    - [ ] mining
+        - [ ] Pick a coin
+            - vericoin?
+            - bcc?
+    - [ ] Get coins sent back
+        - [ ] How does this normally work?
+        - [ ] allow single point of egress?
+            - Admin picks one app to be leader
+            - Leader machine pulls in data from outside (end of the chain or whatever)
+            - Follower machines pull data from leader
+            - Follower machines push data to leader
+            - Leader machine pushes data to the outside
+        - [ ] Or Admins allow it, each machine is independent
+    - [ ] show CPU graph
+    - [ ] show GPU graph
+- [ ] build
+    - [ ] Provide pre-compiled ready-to-deploy releases hard coded to original dev's wallet.
+    - [ ] Provide easily editable `wallet.ini` or something for admins that want to build their own.
+    - [ ] use cross platform Makefile
+- [ ] blog post
+    - [ ] Your people are cold, do something!
+    - [ ] Consult building maintence / engineering
+        - [ ] "Can our wires handle 300 200w space heaters running simultaneously?"
+        - [ ] "Are there any floors we shouldn't run this on?  (Because the AC is running there...)  Like, the server rooms."
+    - [ ] Consult your IT people.
+        - [ ] Can we trust this code?
+    - [ ] Electricity costs money. Recoup your costs by collecting the coins
+    - [ ] Writing this software took time.  Let me recoup my costs by sending the coins my way
+        - [ ] <picture of cute child that wants to go to college>
+    - [ ] If you try this, PLEASE send me graphs/descriptions
+        - [ ] building temp over time
+        - [ ] electricity usage over time
+        - [ ] employee happiness over time
+        - [ ] How loud does your cube farm get with all those CPU fans running?
+        - [ ] PLEASE take a video of the moment of deployment...
